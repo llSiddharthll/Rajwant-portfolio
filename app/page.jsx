@@ -2,11 +2,9 @@
 
 import { useEffect } from 'react';
 import Lenis from '@studio-freight/lenis';
-import Navigation from '@/components/Navigation';
 import Hero from '@/components/Hero';
 import About from '@/components/About';
 import Services from '@/components/Services';
-import Portfolio from '@/components/Portfolio';
 import Contact from '@/components/Contact';
 import Footer from '@/components/Footer';
 import Projects from '@/components/Projects';
@@ -33,14 +31,13 @@ export default function Home() {
   }, []);
 
   return (
-    <>
-      <Navigation />
+    <div className='container mx-auto px-4'>
       <Hero />
       <About />
       <Services />
       <Projects />
       <Contact />
       <Footer />
-    </>
+    </div>
   );
 }
