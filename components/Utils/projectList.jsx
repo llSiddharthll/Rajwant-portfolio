@@ -1,47 +1,77 @@
 export const projectList = [
-    {
-      id: 1,
-      image: "/portfolio/pro1.png",
-      heading: "Product Design",
-      subHeading: "Brand Identity & Motion Design",
-      category:["branding_app", "website", "all"]
-    },
-    {
-      id: 2,
-      image: "/portfolio/pro3.png",
-      heading: "Product Design",
-      subHeading: "Design & Branding Mokeup",
-      category:["los_app", "landing_page", "all"]
-    },
-    {
-      id: 3,
-      image: "/portfolio/pro5.png",
-      heading: "UI/UX Design",
-      subHeading: "Mobile Application Development",
-      category:["website", "branding_app", "all"],
-    },
-    {
-      id: 4,
-      image: "/portfolio/pro2.png",
-      heading: "UI/UX Design",
-      subHeading: "Mobile Application Development",
-      category:["los_app", "landing_page", "all"]
-    },
-    {
-      id: 5,
-      image: "/portfolio/pro4.png",
-      heading: "UI/UX Design",
-      subHeading: "Mobile Application Development",
-      category:["branding_app", "website", "all"]
-    },
-    {
-      id: 6,
-      image: "/portfolio/pro6.png",
-      heading: "UI/UX Design",
-      subHeading: "Mobile Application Development",
-      category:["landing_page", "website", "all"]
-    },
-  ];
+  {
+    id: 1,
+    image: "https://picsum.photos/600/400?random=1",
+    heading: "Trix by Focus (Lighting Industry)",
+    subHeading: "Campaign Strategist, Copywriter, Visual Guide",
+    category: ["branding", "campaigns", "all"],
+  },
+  {
+    id: 2,
+    image: "https://picsum.photos/600/500?random=2",
+    heading: "Chatha Foods (Frozen Foods)",
+    subHeading: "Social Media Calendar, Paid Ads, Content Copy",
+    category: ["food", "social", "all"],
+  },
+  {
+    id: 3,
+    image: "https://picsum.photos/600/450?random=3",
+    heading: "Brightlight Immigration",
+    subHeading: "Reels & Posts on OINP, PGWP, Express Entry",
+    category: ["immigration", "social", "all"],
+  },
+  {
+    id: 4,
+    image: "https://picsum.photos/600/550?random=4",
+    heading: "IBC Real Estate",
+    subHeading: "Surrogate Pages, Brand Grid, Influencer Strategy",
+    category: ["real_estate", "branding", "all"],
+  },
+  {
+    id: 5,
+    image: "https://picsum.photos/600/420?random=5",
+    heading: "CP67 Mall – Homeland Group",
+    subHeading: "Campaign Concepts, Content Calendar, Digital Planning",
+    category: ["real_estate", "retail", "all"],
+  },
+  {
+    id: 6,
+    image: "https://picsum.photos/600/480?random=6",
+    heading: "Felix Plaza – Felicity",
+    subHeading: "Social Media Strategy, Paid Ads, Brand Grid",
+    category: ["real_estate", "social", "all"],
+  },
+  {
+    id: 7,
+    image: "https://picsum.photos/600/530?random=7",
+    heading: "Tvisva Jewels – Binnu Dhillon Brand",
+    subHeading: "Teaser-to-Launch Campaign, Copywriting, Creative Lead",
+    category: ["luxury", "branding", "all"],
+  },
+  {
+    id: 8,
+    image: "https://picsum.photos/600/470?random=8",
+    heading: "Nyska Global",
+    subHeading: "B2B Content Creation & Brand Positioning",
+    category: ["b2b", "manufacturing", "all"],
+  },
+  {
+    id: 9,
+    image: "https://picsum.photos/600/520?random=9",
+    heading: "Political Campaign (Confidential)",
+    subHeading: "Election Strategy, Messaging, Social Media Direction",
+    category: ["political", "campaigns", "all"],
+  },
+];
 
-
-  export const imagesList = ["/portfolio/pro1.png", "/portfolio/pro3.png", "/portfolio/pro5.png", "/portfolio/pro2.png", "/portfolio/pro4.png", "/portfolio/pro6.png"]
+export const imagesList = [
+  "https://picsum.photos/600/400?random=1",
+  "https://picsum.photos/600/500?random=2",
+  "https://picsum.photos/600/450?random=3",
+  "https://picsum.photos/600/550?random=4",
+  "https://picsum.photos/600/420?random=5",
+  "https://picsum.photos/600/480?random=6",
+  "https://picsum.photos/600/530?random=7",
+  "https://picsum.photos/600/470?random=8",
+  "https://picsum.photos/600/520?random=9",
+];

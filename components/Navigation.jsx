@@ -30,7 +30,7 @@ const Navigation = () => {
               {item.name}
             </Link>
           ))}
-          <Button>Get in Touch</Button>
+          <Link href="#contact"><Button className="">Get in Touch</Button></Link>
         </nav>
 
         {/* Mobile Navigation */}
@@ -51,7 +51,7 @@ const Navigation = () => {
                   {item.name}
                 </Link>
               ))}
-              <Button className="mt-4">Get in Touch</Button>
+              <Link href="#contact"><Button className="mt-4">Get in Touch</Button></Link>
             </nav>
           </SheetContent>
         </Sheet>

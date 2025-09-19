@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { Linkedin, Instagram, Twitter, Mail } from 'lucide-react';
+import { Linkedin, Instagram, Twitter, Mail, Phone } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -44,7 +44,7 @@ const Footer = () => {
                 LinkedIn
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/morya_rajwant/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary"
@@ -53,16 +53,16 @@ const Footer = () => {
                 Instagram
               </a>
               <a
-                href="https://twitter.com"
+                href="tel:+918699347100"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary"
               >
-                <Twitter className="w-4 h-4" />
-                Twitter
+                <Phone className="w-4 h-4" />
+                +91-8699347100
               </a>
               <a
-                href="mailto:contact@rajwantmorya.com"
+                href="mailto:rajleadmag@gmail.com"
                 className="flex items-center gap-2 text-sm text-muted-foreground hover:text-primary"
               >
                 <Mail className="w-4 h-4" />

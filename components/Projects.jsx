@@ -16,7 +16,7 @@ const Projects = () => {
   };
 
   return (
-    <section id="projects" className="py-20">
+    <section id="portfolio" className="py-20">
       <div className="container mx-auto px-4">
         <div className="max-w-2xl mx-auto text-center mb-16">
           <h2 className="text-3xl font-bold mb-4">Featured Work</h2>

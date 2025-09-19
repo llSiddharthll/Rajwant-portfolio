@@ -11,14 +11,14 @@ const stats = [
 ];
 
 const skills = [
-  'Social Media Strategy',
-  'Content Creation',
-  'Community Management',
-  'Analytics & Reporting',
-  'Brand Development',
-  'Influencer Marketing',
-  'Paid Social Advertising',
-  'Crisis Management',
+   "Social Media Strategy & Management",
+   "Paid Ad Campaigns (Meta, LinkedIn)",
+   "Brand Identity & Voice Development",
+   "Trend Research & Campaign Ideation",
+   "Team Management (Designers & Editors)",
+   "Content Calendar & Caption Copywriting",
+   "Influencer & Surrogate Marketing",
+   "Political Campaigns (MP & MLA level)",
 ];
 
 const About = () => {
@@ -58,7 +58,7 @@ const About = () => {
 
             <div>
               <h3 className="text-xl font-semibold mb-4">Core Skills</h3>
-              <div className="grid grid-cols-2 gap-3">
+              <div className="grid grid-cols-2 gap-2">
                 {skills.map((skill, index) => (
                   <div key={index} className="flex items-center gap-2">
                     <BadgeCheck className="w-5 h-5 text-primary" />
@@ -68,7 +68,7 @@ const About = () => {
               </div>
             </div>
 
-            <Button size="lg">Download Resume</Button>
+            <Button size="lg"><a href="/resume.pdf" download>Download Resume</a></Button>
           </div>
         </div>
       </div>

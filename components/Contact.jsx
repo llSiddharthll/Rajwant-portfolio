@@ -24,14 +24,14 @@ const Contact = () => {
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Mail className="w-5 h-5" />
-                contact@rajwantmorya.com
+                rajleadmag@gmail.com
               </a>
               <a
-                href="tel:+1234567890"
+                href="tel:+918699347100"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
               >
                 <Phone className="w-5 h-5" />
-                +1 (234) 567-890
+                +91-8699347100
               </a>
               <a
                 href="https://www.linkedin.com/in/moryarajwant/"
@@ -43,7 +43,7 @@ const Contact = () => {
                 LinkedIn Profile
               </a>
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/morya_rajwant/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 text-muted-foreground hover:text-primary transition-colors"
